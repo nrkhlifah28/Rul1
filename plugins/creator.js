@@ -10,7 +10,7 @@ let handler = async(m, { conn }) => {
     body: 'Owner Saya Baik Loh Kak',
     title: 'Nih My Owner(◕ᴗ◕✿)',
     sourceUrl: data.sc,
-    thumbnail: await(await fetch('https://telegra.ph/file/0b6a1d55e82fa0fcb801e.jpg')).buffer(),
+    thumbnail: await(await fetch(img)).buffer(),
      }}
   })
 	]
