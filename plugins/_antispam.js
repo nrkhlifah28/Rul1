@@ -27,7 +27,7 @@ handler.all = async function (m) {
     description: data.deslink , 
     title: 'Apasi spam, alay bego😒',
     body: wm,
-    thumbnail: await(await fetch('https://telegra.ph/file/0b6a1d55e82fa0fcb801e.jpg')).buffer(),
+    thumbnail: await(await fetch(img)).buffer(),
     sourceUrl: data.sc
      }}
   })
