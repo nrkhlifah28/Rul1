@@ -11,7 +11,7 @@ externalAdReply :{
     sourceUrl: data.sc,
     title: 'Jangan Dispam Ya Kak',
     body: wm,
-    thumbnail: await(await fetch(https://telegra.ph/file/0b6a1d55e82fa0fcb801e.jpg)).buffer(),
+    thumbnail: await(await fetch('https://telegra.ph/file/0b6a1d55e82fa0fcb801e.jpg')).buffer(),
 }}})
 }
 
