@@ -25,9 +25,9 @@ handler.all = async function (m) {
     mediaUrl: data.sc,
     mediaType: 2,
     description: data.deslink , 
-    title: 'Jangan Spam Anyingg🙄',
+    title: 'Apasi spam, alay bego😒',
     body: wm,
-    thumbnail: await(await fetch(img)).buffer(),
+    thumbnail: await(await fetch('https://telegra.ph/file/0b6a1d55e82fa0fcb801e.jpg')).buffer(),
     sourceUrl: data.sc
      }}
   })
