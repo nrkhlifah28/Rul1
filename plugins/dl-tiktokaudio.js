@@ -14,8 +14,8 @@ await conn.reply(m.chat, `Downloading media from Tiktok`, 0, {
     description: data.deslink , 
     title: run,
     body: wm,
-    thumbnail: await(await fetch(img)).buffer(),
-    sourceUrl: data.sc
+    thumbnail: await(await fetch(global.img)).buffer(),
+    sourceUrl: data.sc,
      }}
   })
   try {
