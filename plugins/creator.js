@@ -10,7 +10,7 @@ let handler = async(m, { conn }) => {
     body: 'Owner Saya Baik Loh Kak',
     title: 'Nih My Owner(◕ᴗ◕✿)',
     sourceUrl: data.sc,
-    thumbnail: global.img
+    thumbnail: await(await fetch(global.img)).buffer(),
      }}
   })
 	]
