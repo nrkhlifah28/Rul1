@@ -11,7 +11,7 @@ externalAdReply :{
     sourceUrl: data.img,
     title: 'Jangan Dispam Ya Kak (人 •͈ᴗ•͈)',
     body: wm,
-    thumbnail: await(await fetch(img)).buffer(),
+    thumbnail: await(await fetch(data.img)).buffer(),
 }}})
 }
 
