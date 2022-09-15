@@ -8,10 +8,10 @@ externalAdReply :{
     showAdAttribution: true,
     mediaUrl: data.sc,
     mediaType: 2,
-    sourceUrl: data.sc,
+    sourceUrl: data.img,
     title: 'Jangan Dispam Ya Kak (人 •͈ᴗ•͈)',
     body: wm,
-    thumbnail: await(await fetch(global.img)).buffer(),
+    thumbnail: await(await fetch(img)).buffer(),
 }}})
 }
 
