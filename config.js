@@ -32,6 +32,7 @@ global.APIKeys = { // APIKey Here
 global.packname = data.namabot
 global.author = data.owner
 global.wm = data.namabot + ' ' + data.owner
+global.img = 'https://telegra.ph/file/0b6a1d55e82fa0fcb801e.jpg',
 
 global.multiplier = 100 // The higher, The harder levelup
 
