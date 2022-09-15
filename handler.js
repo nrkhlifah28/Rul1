@@ -622,8 +622,7 @@ module.exports = {
                                 mediaUrl: data.sc,
                                 mediaType: 2,
                                 sourceUrl: data.sc,
-                                body: 'Join Kegc Saya Kack',
-                                thumbnail: await(await fetch (img)).buffer(),
+                                body: 'Join Kegc Saya Kack'
                                 title: action === 'add' ? 'Halo beban grup🤗' : 'Kok beban keluar sih, jangan balik lagi ya😩',
                                 }}})
                                 }
